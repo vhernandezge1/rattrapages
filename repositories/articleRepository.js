@@ -1,12 +1,16 @@
-let articles = [];
-let idCounter = 1;
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
 
 const create = async ({ title, content, author }) => {
-  const article = { id: idCounter++, title, content, author, createdAt: new Date() };
-  articles.push(article);
-  return article;
+  return await prisma.article.create({
+    data: { title, content, author }
+  });
 };
 
-const findAll = async () => articles;
+const findAll = async () => {
+  return await prisma.article.findMany({
+    orderBy: { createdAt: 'desc' }
+  });
+};
 
 module.exports = { create, findAll };
