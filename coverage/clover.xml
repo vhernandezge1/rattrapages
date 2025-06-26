@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1750941440225" clover="3.2.0">
-  <project timestamp="1750941440226" name="All files">
-    <metrics statements="34" coveredstatements="32" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="4" elements="45" coveredelements="40" complexity="0" loc="34" ncloc="34" packages="4" files="4" classes="4"/>
+<coverage generated="1750943637309" clover="3.2.0">
+  <project timestamp="1750943637310" name="All files">
+    <metrics statements="33" coveredstatements="31" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="5" elements="44" coveredelements="40" complexity="0" loc="33" ncloc="33" packages="4" files="4" classes="4"/>
     <package name="rattrapages">
       <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="app.js" path="C:\Users\valen\Desktop\projets\rattrapages\app.js">
@@ -34,17 +34,16 @@
       </file>
     </package>
     <package name="rattrapages.repositories">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="articleRepository.js" path="C:\Users\valen\Desktop\projets\rattrapages\repositories\articleRepository.js">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
       </file>
     </package>
     <package name="rattrapages.services">
