@@ -1,3 +1,11 @@
-git clone <url-du-projet>
-cd MiniBlog
+Clonage du projet : 
+git clone https://github.com/vhernandezge1/rattrapages.git
+
+Installation des dépendances :
 npm install
+
+Lancement du projet :
+npm start
+
+Dans un autre terminal , pour effectuer les tests :
+npm test
